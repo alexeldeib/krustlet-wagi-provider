@@ -23,7 +23,7 @@ tempfile = "3.1"
 wasmtime = "0.28"
 toml = "0.5"
 indexmap = { version = "^1.6.2", features = ["serde"] }
-wagi = { git = "https://github.com/deislabs/wagi", version = "0.2.0" }
+wagi = { git = "https://github.com/deislabs/wagi", version = "v0.2.0" }
 tokio = { version = "1.0", features = ["fs", "macros", "io-util", "sync"] }
 chrono = { version = "0.4", features = ["serde"] }
 krator = { version = "0.4", default-features = false }
